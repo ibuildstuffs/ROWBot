@@ -129,6 +129,10 @@ Leg CAD:
 
 ![Full leg CAD](images/journal/history/2025-08-07-full-leg-cad.png)
 
+![3D-printed leg components laid out before assembly](images/journal/history/2025-08-07-printed-leg-parts-01.jpg)
+
+![Second view of the 3D-printed leg components](images/journal/history/2025-08-07-printed-leg-parts-02.png)
+
 Here's a snippet of some of the prototype Code:
 
 ```cpp
