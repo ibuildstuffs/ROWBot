@@ -13,7 +13,7 @@ About a week ago, as winter break approached, I decided that I wanted to do a pe
 
 So here's the gist of the idea I have:
 
-![Original LLSP concept sketch showing the spider robot and arm robot](images/journal/history/2024-12-29-project-concept-sketch.png)
+![Original LLSP concept sketch showing the spider robot and arm robot](images/2024-12-29-project-concept-sketch.png)
 
 I want to have the two robots work together. Maybe one's a bit stronger and has the platform to carry the robot with the arm. Or maybe I have two identical robots; that way their functions are interchangeable.
 
@@ -35,9 +35,9 @@ Notes:
 
 Lowkey the design we go for, and also figured out the design for what the legs should look like.
 
-![Leg-shape reference from the original project notes](images/journal/history/2025-02-03-leg-shape-reference.png)
+![Leg-shape reference from the original project notes](images/2025-02-03-leg-shape-reference.png)
 
-![Handwritten project research notes](images/journal/history/2025-02-03-research-notes.jpg)
+![Handwritten project research notes](images/2025-02-03-research-notes.jpg)
 
 Hoping to figure out what the frame might look like and go from there. My next job should probably be figuring out what electronics I should be purchasing (servos, sensors, etc.). I should especially be worried about which sensors I would ACTUALLY NEED TO USE IN ORDER TO MAINTAIN SPIDER BALANCE.
 
@@ -47,9 +47,9 @@ Returned to this project and read up on how one would do this. The first step is
 
 New Leg Design (ratios 0.6:1:1.6) (it's 1.6 instead of 2 because the arm is curved)
 
-![Handwritten leg design and ratio notes](images/journal/history/2025-03-21-leg-ratio-notes.jpg)
+![Handwritten leg design and ratio notes](images/2025-03-21-leg-ratio-notes.jpg)
 
-![Early hexapod concept model](images/journal/history/2025-03-21-hexapod-concept.png)
+![Early hexapod concept model](images/2025-03-21-hexapod-concept.png)
 
 Look at how cute this is! Will be awesome when bro gets made.
 
@@ -57,9 +57,9 @@ March 23rd:
 
 Just did a ton of research on what steps to take next. I haven't gotten around to starting the CAD, but I'm pretty sure I know of what servos to use. As part of servo research, I took this hand off of a Meccano robot I found in order to help me visualize how the leg would look.
 
-![Meccano hand used to visualize the leg](images/journal/history/2025-03-23-meccano-hand-reference.jpg)
+![Meccano hand used to visualize the leg](images/2025-03-23-meccano-hand-reference.jpg)
 
-![Leg linkage diagram used during sizing](images/journal/history/2025-03-23-leg-linkage-diagram.png)
+![Leg linkage diagram used during sizing](images/2025-03-23-leg-linkage-diagram.png)
 
 Given that each servo is around 5.5cm at its widest + a couple of centimeters in order to build the housings, the coxa is at least ~14cm long. My ratios then have the femur as around ~23cm, and my tibia at around ~35cm (end to end, probably around ~38 actual length.
 
@@ -67,7 +67,7 @@ Given that each servo is around 5.5cm at its widest + a couple of centimeters in
 
 I began CADing the servo motor; also, the servos themselves came in! Beautiful.
 
-![Early servo-motor CAD](images/journal/history/2025-03-30-servo-cad.png)
+![Early servo-motor CAD](images/2025-03-30-servo-cad.png)
 
 (Figuring out the dimensions was the hard part. I'm sure this will look nicer eventually.)
 
@@ -87,17 +87,17 @@ I've purchased the batteries, and over these last few months, I created a workin
 
 The circuit
 
-![Working prototype-leg circuit](images/journal/history/2025-07-03-prototype-circuit.jpg)
+![Working prototype-leg circuit](images/2025-07-03-prototype-circuit.jpg)
 
 V2 of the servo holder
 
-![Version 2 of the servo holder](images/journal/history/2025-07-03-servo-holder-v2.png)
+![Version 2 of the servo holder](images/2025-07-03-servo-holder-v2.png)
 
 # July 23, 2025: Setting a concrete timeline
 
 Exactly twenty days later and 0 progress has been made lol. So now, we're going to set some concrete timelines/project goals.
 
-![Project schedule and timeline](images/journal/history/2025-07-23-project-timeline.png)
+![Project schedule and timeline](images/2025-07-23-project-timeline.png)
 
 Here's to finishing it by September!
 
@@ -117,7 +117,7 @@ Big strides have been made. I've CAD-ed the entire leg, and it should be printed
 
 [Inverse Kinematics of Articulated Manipulator](https://www.youtube.com/watch?v=D93iQVoSScQ) - Used this to help determine the inverse kinematics
 
-![Inverse-kinematics reference from the original notes](images/journal/history/2025-08-07-inverse-kinematics-reference.png)
+![Inverse-kinematics reference from the original notes](images/2025-08-07-inverse-kinematics-reference.png)
 
 Volume of Leg:
 
@@ -127,7 +127,7 @@ Volume of Leg:
 
 Leg CAD:
 
-![Full leg CAD](images/journal/history/2025-08-07-full-leg-cad.png)
+![Full leg CAD](images/2025-08-07-full-leg-cad.png)
 
 Here's a snippet of some of the prototype Code:
 
@@ -157,7 +157,7 @@ But essentially, I:
 - vibe coded a controller that built off of my IK (inverse kinematics) math
 - put it into action!
 
-![Assembled single-leg prototype beside the Arduino Due and 3D inverse-kinematics controller](images/journal/history/2026-07-14-assembled-single-leg-prototype.png)
+![Assembled single-leg prototype beside the Arduino Due and 3D inverse-kinematics controller](images/2026-07-14-assembled-single-leg-prototype.png)
 
 Here's also everything I've obtained that hasn't been mentioned already:
 
@@ -180,12 +180,12 @@ In early July, I realized that the hexapod idea I've been working with over the 
 
 Originally, I came up with two new projects: a robot arm on wheels, or a teleoperated robot arm, a fancy way to say that I'm making a fancy joystick to control a robot arm. I settled on the Robot (arm) On Wheels (ROWBot) first, but then I realized that it was basically a worse version of a bomb disposal robot, and figured I had a better use for the teleoperated robot arm. So I spent some time researching how they worked and what I would need to do to make it a reality. (if you want to steal the ROWBot name go for it)
 
-![Brainstorming new ideas](images/journal/history/2026-07-19-brainstorming.png)
+![Brainstorming new ideas](images/2026-07-19-brainstorming.png)
 
 For one, my 3-DOF leg needs to become a 5/6-DOF arm, meaning I need 2/3 more (smaller) servos to act as the wrist, as well as something to actuate the gripper itself. In order to implement the 'teleoperated' portion of the project, I'm going to use 5/6 rotation servos to build a smaller model of the robot arm that would serve as the controller. The arm would mimic the controller's movements. Additionally, I'd use two microcontrollers like the ESP32 to communicate between controller and arm. Now that I think about it, I might not need the Arduino if I can just use the ESP32 instead, but that's something I'll look into later.
 
 I also went and spent some time redesigning the (now arm) 3D parts for the leg, making it easier to assemble as well as making it structurally better.
 
-![Improving CAD designs](images/journal/history/2026-07-19-improving-cad.png)
+![Improving CAD designs](images/2026-07-19-improving-cad.png)
 
 **Total time spent: 6 hours**
