@@ -129,10 +129,6 @@ Leg CAD:
 
 ![Full leg CAD](images/journal/history/2025-08-07-full-leg-cad.png)
 
-![3D-printed leg components laid out before assembly](images/journal/history/2025-08-07-printed-leg-parts-01.jpg)
-
-![Second view of the 3D-printed leg components](images/journal/history/2025-08-07-printed-leg-parts-02.png)
-
 Here's a snippet of some of the prototype Code:
 
 ```cpp
@@ -172,3 +168,23 @@ Here's also everything I've obtained that hasn't been mentioned already:
 Arduino Due (I swiped it from school)
 
 **Total time spent: 60 hours** (somewhere between 60-100 hours from December 2024 - July 2026. I know this probably won't be counted but y'know, atleast know a lot of time was put into it)
+
+# Change of Plans
+
+In early July, I realized that the hexapod idea I've been working with over the past year and a half wouldn't be feasible. Why? Most other hexapods used much smaller and lighter mini-servos if they used servos. However, at the scale my servos were at, a robot of relative size would place too heavy a load on the servos, which aren't well-suited to repeatedly lifting that much weight while walking. So with the possibility that the robot I'd eventually build might not work because physics, I believed continuing the project in its current state wasn't possible. Either I:
+1. abandon the project
+2. spend a boatload buying smaller servos (and designing new parts), or
+3. a secret third option of pivoting with what I had already built to still make something really cool.
+
+# July 19, 2026
+
+Originally, I came up with two new projects: a robot arm on wheels, or a teleoperated robot arm, a fancy way to say that I'm making a fancy joystick to control a robot arm. I settled on the Robot (arm) On Wheels (ROWBot) first, but then I realized that it was basically a worse version of a bomb disposal robot, and figured I had a better use for the teleoperated robot arm. So I spent some time researching how they worked and what I would need to do to make it a reality. (if you want to steal the ROWBot name go for it)
+
+![Brainstorming new ideas](images/journal/history/2026-07-19-brainstorming.png)
+
+For one, my 3-DOF leg needs to become a 5/6-DOF arm, meaning I need 2/3 more (smaller) servos to act as the wrist, as well as something to actuate the gripper itself. In order to implement the 'teleoperated' portion of the project, I'm going to use 5/6 rotation servos to build a smaller model of the robot arm that would serve as the controller. The arm would mimic the controller's movements. Additionally, I'd use two microcontrollers like the ESP32 to communicate between controller and arm. Now that I think about it, I might not need the Arduino if I can just use the ESP32 instead, but that's something I'll look into later.
+
+I also went and spent some time redesigning the (now arm) 3D parts for the leg, making it easier to assemble as well as making it structurally better.
+![Improving CAD designs](images/journal/history/2026-07-19-improving-cad.png)
+
+**Total time spent: 6 hours**
