@@ -1,7 +1,7 @@
 ---
-title: "ROWBot"
+title: "TEOPRO-Arm"
 author: "ibuildstuffs"
-description: "A custom wheeled robot that reuses my three-DOF spider leg as a robotic arm with a gripper, camera, and modular sensor platform."
+description: "A custom 5/6-DOF teleoperated robot arm"
 created_at: "2026-07-18"
 ---
 
@@ -188,4 +188,4 @@ I also went and spent some time redesigning the (now arm) 3D parts for the leg, 
 
 ![Improving CAD designs](images/2026-07-19-improving-cad.png)
 
-**Total time spent: 6 hours**
+**Total time spent: 7 hours**
