@@ -184,6 +184,8 @@ Originally, I came up with two new projects: a robot arm on wheels, or a teleope
 
 For one, my 3-DOF leg needs to become a 5/6-DOF arm, meaning I need 2/3 more (smaller) servos to act as the wrist, as well as something to actuate the gripper itself. In order to implement the 'teleoperated' portion of the project, I'm going to use 5/6 rotation servos to build a smaller model of the robot arm that would serve as the controller. The arm would mimic the controller's movements. Additionally, I'd use two microcontrollers like the ESP32 to communicate between controller and arm. Now that I think about it, I might not need the Arduino if I can just use the ESP32 instead, but that's something I'll look into later.
 
+![Robot arm wrist diagram](images/2026-07-19-robot-wrist-diagram.png)
+
 I also went and spent some time redesigning the (now arm) 3D parts for the leg, making it easier to assemble as well as making it structurally better.
 
 ![Improving CAD designs](images/2026-07-19-improving-cad.png)
