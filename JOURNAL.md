@@ -191,3 +191,23 @@ I also went and spent some time redesigning the (now arm) 3D parts for the leg, 
 ![Improving CAD designs](images/2026-07-19-improving-cad.png)
 
 **Total time spent: 7 hours**
+
+# July 20/21, 2026
+
+I'm about to board a plane as I'm typing this...
+
+But basically, once again, I just spent a embarrassingly crap ton of time CAD-ing the model for the follower arm. I like to think that I'm getting both faster and better at designing because of my experience designing the original flaming pile of junk robot leg, but still... 7 hours for a handful of parts feels slow. Also gotta stop doing these late-night CAD sessions and fix my sleep schedule.
+
+Here's the femur:
+
+![Femur design](images/2026-07-21-femur.png)
+
+Parts of the base:
+
+![Base design](images/2026-07-21-arm-base.png)
+
+Total progress of the leg now:
+
+![Robot arm progress](images\2026-07-21-arm-update.png)
+
+**Total time spent: 7 hours**
