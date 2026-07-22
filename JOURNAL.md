@@ -208,6 +208,6 @@ Parts of the base:
 
 Total progress of the leg now:
 
-![Robot arm progress](images\2026-07-21-arm-update.png)
+![Robot arm progress](images/2026-07-21-arm-update.png)
 
 **Total time spent: 7 hours**
